@@ -281,14 +281,17 @@ hr{
     line-height: 40px;
     border-radius: 100%;
     border: 2px solid black;
-    transition: 0.5s ease-in-out;
+    transition: 0.3s ease-in-out;
 
 }
 
 .social-icon ul li a i:hover{
 	border: 3px solid #F4D03F;
+	background-color: transparent;
+	color: #2980B9;
 	transform: scale(1.3);
 	transition: 0.5s ease-in-out;
+	
 }
 
 
