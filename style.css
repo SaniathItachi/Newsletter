@@ -66,24 +66,21 @@ a{
 .input1{
 	width: 25%;
 	height: 40px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
-	outline: none;
-	font-size: 15px;
-	border-radius: 2px;
 	padding-left: 10px;
+	
+	
+	
 }
 
 .input2{
 	width: 30%;
 	height: 40px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
-	outline: none;
-	font-size: 15px;
-	border-radius: 2px;
 	padding-left: 10px;
-
+	
 	
 }
 
@@ -108,11 +105,13 @@ a{
 	padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+   
 }
 
 .contact{
 	width: 1140px;
 	margin: auto;
+	
 }
 
 .contact h1{
@@ -121,6 +120,7 @@ a{
     font-size: 50px;
     font-weight: 500;
     margin-bottom: 18px;
+
 }
 
 .contact p{
@@ -133,12 +133,13 @@ a{
 
 }
 
+
 .input4{
-	width: 22.5%;
+	width: 19%;
 	height: 40px;
 	margin-bottom: 13px;
 	padding-left: 10px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
 	
     
@@ -146,12 +147,12 @@ a{
 }
 
 .input5{
-    width: 22.5%;
+    width: 19%;
 	height: 40px;
 	margin-bottom: 13px;
 	padding-left: 10px;
 	margin-left: 10px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
 }
 
@@ -171,35 +172,123 @@ a{
 	margin-bottom: 13px;
 	padding-left: 10px;
 	margin-left: 10px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
 	
 }
 .input8{
 	width: 40%;
 	padding-left: 10px;
-	background: transparent;
+	background-color: transparent;
 	border: 1px solid rgba(0,0,0,0.25);
     height: 250px;
-    padding-top: 10px
-    
+    padding-top: 10px;
+    font-family: 'Poppins', sans-serif;
+
 
 }
 
 .input9{
-	width: 120px;
-	height: 40px;
-	font-size: 15px;
-	font-weight: 600;
-	letter-spacing: 2px;
-	background-color: #696969;
+	width: 100px;
+	height: 30px;
+	background-color: teal;
 	color: white;
-	border: 1px solid rgba(0,0,0,0.25);
-	cursor: pointer;
-	
-
+	border: none;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
 }
 
 .input9:hover{
-	background-color: black;
+	background-color: #D0D3D4;
+	color: black;
 }
+
+.footer{
+	background-color: black;
+	padding: 80px 0px;
+	width: 100%;
+}
+
+.fcontainer{
+	width: 1140px;
+	margin: auto;
+}
+
+.colo h4{
+	color: white;
+	margin-bottom: 20px;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 700;
+
+
+}
+
+.colo .menu ul li a{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	line-height: 24px;
+
+}
+
+.footer-menu{
+	display: flex;
+	justify-content: space-around; 
+}
+
+hr{
+	background-color: #CECECE;
+	height: 1px;
+	margin: 40px 0px;s
+}
+.footer-bottom ul li{
+	display: inline-block;
+	list-style: none;
+	border-right: 1px solid white;
+	padding: 10px;
+
+
+}
+
+.footer-bottom ul li a{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	line-height: 24px;
+}
+
+.last{
+	border-right: 0px !important;
+}
+
+.footer-bottom p{
+	color: #CECECE;
+	font-family: 'Poppins', sans-serif;
+	line-height: 24px;
+	margin: 20px;
+}
+
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+}
+
+.social-icon ul li a i{
+	color: white;
+	height: 40px;
+    width: 40px;
+    background-color: #2980B9 ;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    border: 2px solid black;
+    transition: 0.5s ease-in-out;
+
+}
+
+.social-icon ul li a i:hover{
+	border: 3px solid #A93226 ;
+	transform: scale(1.3);
+	transition: 0.5s ease-in-out;
+}
+
+
